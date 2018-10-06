@@ -22,7 +22,10 @@ export default {
     onLoadUser() {
       this.$router.push(`/users/${ this.userId }`)
     }
-  }
+  },
+
+
+  layout: 'users' // nuxt.js property
 
 }
 </script>

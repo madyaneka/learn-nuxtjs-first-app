@@ -4,8 +4,13 @@
 
 <script>
 export default {
+
   validate (data) {  // this method will be executed before rendering a route (nuxt.js method)
     return /^\d+$/.test(data.params.id)
-  }
+  },
+
+
+  layout: 'users'
+
 }
 </script>
